@@ -1,0 +1,15 @@
+# Ignore massive data streams (GitHub will block files > 100MB)
+candidates.jsonl
+
+# Ignore Python cache artifacts
+__pycache__/
+*.pyc
+
+# Ignore frontend dependencies and build builds
+spatial-dashboard/node_modules/
+spatial-dashboard/.next/
+spatial-dashboard/.env
+
+# Keep sample data and outputs for evaluation
+!data/sample_candidates.json
+!team_prime.csv
